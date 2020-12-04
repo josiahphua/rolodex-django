@@ -42,7 +42,7 @@ Since we have all agreed to use Postgresql as the Database for our app. Here is 
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': '<database name>',
-        'USER': '<ebereandhisbigrolodex>',
+        'USER': '<siusing>',
         # 'PASSWORD': '<ebere>', # only required if on windows
         'HOST': 'localhost',
         'PORT': 5432
