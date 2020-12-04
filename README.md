@@ -10,6 +10,7 @@ Let's get rid of the rolodex that's gathering dust on our desk and start storing
 1. User should be able to create a contact via a form
 1. A page listing all of your contacts
 1. A page to show one contact
+1. Edit and Delete a contact
 
 # Further (But you've got the whole weekend to solve it and it's the final weekend homework so you might as well push yourself and please the homework GOD)
 
