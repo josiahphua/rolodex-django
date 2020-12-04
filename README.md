@@ -1,8 +1,10 @@
 # ROLODEX - Contacts Management w/ Django
-![](https://cdn.mscdirect.com/global/images/ProductImages/7474251-11.jpg)
+
 # Back Story
-Goodbye rolodex, Hello 21st Century.
+Goodbye rolodex. Hello 21st Century.
 Let's get rid of the rolodex that's gathering dust on our desk and start storing our contacts in an app.
+
+<img src="https://cdn.mscdirect.com/global/images/ProductImages/7474251-11.jpg" width="400">
 
 # Deliverables
 1. User should be able to create a contact via a form
@@ -10,7 +12,12 @@ Let's get rid of the rolodex that's gathering dust on our desk and start storing
 1. A page to show one contact
 
 # Further (But you've got the whole weekend to solve it and it's the final weekend homework so you might as well push yourself and please the homework GOD)
-1. Search through your rolodex
+
+1. Create a search function for your rolodex
+```python
+request.GET.get(“q”) #this line will get the querry parameter from the url
+```
+
 2. Style it with style
 
 ## Getting Started
