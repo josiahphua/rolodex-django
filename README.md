@@ -25,7 +25,7 @@ request.GET.get(“q”) #this line will get the querry parameter from the url
 - Create a django project `django-admin startproject rolodex`
 - Install Django `pipenv install django`
 - Start python virtual environment `pipenv shell`
-- Create a django app `python manage.py startapp contacts`
+- Create a django app `python manage.py startapp my-rolodex`
 - When complete send a pull request with a readme containing screenshots of your app.
 
 ## Helper
