@@ -1,5 +1,5 @@
 # ROLODEX - Contacts Management w/ Django
-
+![](https://cdn.mscdirect.com/global/images/ProductImages/7474251-11.jpg)
 # Back Story
 Goodbye rolodex, Hello 21st Century.
 Let's get rid of the rolodex that's gathering dust on our desk and start storing our contacts in an app.
