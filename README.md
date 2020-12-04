@@ -23,9 +23,10 @@ request.GET.get(“q”) #this line will get the querry parameter from the url
 ## Getting Started
 - Clone this repository
 - Create a django project `django-admin startproject rolodex`
+- Go to your project folder `cd rolodex`
 - Install Django `pipenv install django`
 - Start python virtual environment `pipenv shell`
-- Create a django app `python manage.py startapp my-rolodex`
+- Create a django app `python manage.py startapp siusinghomeworkgod`
 - When complete send a pull request with a readme containing screenshots of your app.
 
 ## Helper
@@ -41,7 +42,7 @@ Since we have all agreed to use Postgresql as the Database for our app. Here is 
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': '<database name>',
-        'USER': '<ebere>',
+        'USER': '<ebereandhisbigrolodex>',
         # 'PASSWORD': '<ebere>', # only required if on windows
         'HOST': 'localhost',
         'PORT': 5432
