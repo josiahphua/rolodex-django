@@ -1,0 +1,24 @@
+{% extends 'contacts/index.html' %}
+
+{% block content %}
+
+<div>
+{{contact.title | capfirst}}
+</div>
+<div>
+{{contact.description | truncatewords:"5"}}
+</div>
+
+{% if form %}
+    <div>
+        <form method="post">
+            {% csrf_token %}
+            {{form.as_table}}
+            <button type="submit">Edit Contact</button>
+        </form>
+    </div>
+
+{% endif %}
+
+
+{% endblock content %}
